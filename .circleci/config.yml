@@ -10,4 +10,5 @@ jobs:
           command: |
             curl -sSL https://www.sourceclear.com/install | bash
             echo "64926cb2-a629-4801-beb8-c928461f0cf0" | srcclr activate
+            srcclr scan
       - run: echo "hello world"
